@@ -40,6 +40,11 @@ The unified reporting system was built around key business metrics critical to e
 | 👤 **Agent Performance**    | Calculates profitability by agent: total sales generated vs expenses incurred               | `SUM(Sales per Agent) - SUM(Commercial Expenses per Agent)`                                       | Evaluate agent profitability and efficiency            |
 | 📉 **Customer Acquisition Cost (CAC)** | Measures average cost to acquire a customer by comparing sales expenses to new clients | `SUM(Commercial Expenses) / COUNT(New Customers)`                                                  | Assess cost-efficiency of sales operations             |
 
+All KPIs were segmented by:
+- ⏱️ **Time Period (monthly/quarterly)**
+- 📍 **Location**
+- 🧩 **Product Line**
+- 🧑‍💼 **Sales Agent & Sales Type**
 
 ---
 
@@ -48,8 +53,6 @@ The unified reporting system was built around key business metrics critical to e
 - 📈 **Multi-layer Dashboards**: By department, region, and product
 - 🧮 **Custom KPIs**: e.g., Agent Profitability, Opportunity Conversion, Payment Progress
 - 🧩 **Fact + Dimension Logic**: Unified model to describe accounts, opportunities, vendors
-- 🔗 **Automated Syncs**: Data preparation for export to Excel / Google Sheets for offline use
-- 📤 **Exportable Reports**: Used by field staff and country managers
 
 ---
 
@@ -82,7 +85,7 @@ The dashboard system was based on a modular data model aligned with Salesforce's
 
 - `Opportunity` ←→ `Account` ←→ `Opportunity_Product`  
 - `Opportunity` ←→ `Payments` (custom object)
-- - `Opportunity` ←→ `Installation Orders` (custom object)  
+- `Opportunity` ←→ `Installation Orders` (custom object)  
 - `Opportunity` ←→ `Owners`  
 
 ![Dashboards Diagram](images/salesforce-diagram.jpg)
@@ -90,18 +93,25 @@ The dashboard system was based on a modular data model aligned with Salesforce's
 
 ---
 
-## 💼 Images
+## 📸 Screenshots
 
 ## Performance Dashboard 
-Metrics:  `Sales`, `Unit Performance`,`Revenue Performance`,`Products`
 ![Performance Dashboard](images/performance-dashboard.jpg)
+Metrics:  `Sales`, `Unit Performance`,`Revenue Performance`,`Products`
 
 ## Profitability Dashboard 
-Metrics:  `Balance`, `Agent Performance`,`CAC`
 ![Dashboards Diagram](images/profitability-dashboard.jpg)
+Metrics:  `Balance`, `Agent Performance`,`CAC`
 
 ## Automate Reporting 
-![Dashboards Diagram](images/automate-reports.jpg)
+![Automate](images/automate-reports.jpg)
+
+## Partnership / Insights Dashboard 
+![Dashboards Partnerships](images/partnerships-insights-dashboard.jpg)
+
+
+## Workload Dashboard 
+![Dashboards Workload](images/workload-dashboard.jpg)
 
 
 ---
