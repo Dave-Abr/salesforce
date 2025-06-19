@@ -1,3 +1,4 @@
+![Wallpaper](images/salesforce-project.jpg)
 # 📊 Unified Salesforce Dashboard & Reporting System
 
 This project documents the unified system of dashboards and reports I designed and implemented in Salesforce to centralize performance insights across multiple departments at Sistema.bio. It was built to improve visibility into sales performance, opportunity management, revenue tracking, and agent profitability.
@@ -73,7 +74,7 @@ The dashboard system was based on a modular data model aligned with Salesforce's
 - - `Opportunity` ←→ `Installation Orders` (custom object)  
 - `Opportunity` ←→ `Owners`  
 
-![Data Model Example](images/data-model-diagram.png)
+![Data Model Example](images/salesforce-project.jpg)
 
 ---
 
