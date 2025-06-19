@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/67fb1e93-e702-4ada-98f8-e3d56d97123d)![Wallpaper](images/salesforce-project.jpg)
+![Wallpaper](images/salesforce-project.jpg)
 # 📊 Unified Salesforce Dashboard & Reporting System
 
 This project documents the unified system of dashboards and reports I designed and implemented in Salesforce to centralize performance insights across multiple departments at Sistema.bio. It was built to improve visibility into sales performance, opportunity management, revenue tracking, agent profitability and the workload pending.
