@@ -27,6 +27,8 @@ The goal was to replace scattered, manual reporting processes with a unified sys
 | Leadership         | Weekly reports and executive dashboards for decision-making            |
 | Cross-Function     | Aligned definitions of KPIs across regions and reduced reporting time  |
 
+![Diagram](images/diagram.jpg)
+
 ---
 
 ## 📄 KPI Definitions
