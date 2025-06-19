@@ -28,6 +28,8 @@ The goal was to replace scattered, manual reporting processes with a unified sys
 | Cross-Function     | Aligned definitions of KPIs across regions and reduced reporting time  |
 
 ![Diagram](images/diagram.jpg)
+![Diagram](images/diagram-database.jpg)
+
 
 ---
 
