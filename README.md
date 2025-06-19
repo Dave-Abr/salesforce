@@ -1,7 +1,7 @@
 ![Wallpaper](images/salesforce-project.jpg)
 # 📊 Unified Salesforce Dashboard & Reporting System
 
-This project documents the unified system of dashboards and reports I designed and implemented in Salesforce to centralize performance insights across multiple departments at Sistema.bio. It was built to improve visibility into sales performance, opportunity management, revenue tracking, and agent profitability.
+This project documents the unified system of dashboards and reports I designed and implemented in Salesforce to centralize performance insights across multiple departments at Sistema.bio. It was built to improve visibility into sales performance, opportunity management, revenue tracking, agent profitability and the workload pending.
 
 > ⚙️ **Tech Stack**: Salesforce (Reports, Dashboards, Custom Fields), SOQL, CRM Analytics, Data Modeling
 
@@ -23,7 +23,7 @@ The goal was to replace scattered, manual reporting processes with a unified sys
 | Area               | Impact                                                                 |
 |--------------------|------------------------------------------------------------------------|
 | Sales & CRM Teams  | Improved visibility into agent productivity and pipeline forecasting   |
-| Finance Department | Automated profit vs. cost comparisons per opportunity                  |
+| Finance Department | Automated profit vs. cost comparisons per period                       |
 | Leadership         | Weekly reports and executive dashboards for decision-making            |
 | Cross-Function     | Aligned definitions of KPIs across regions and reduced reporting time  |
 
@@ -59,32 +59,18 @@ The unified reporting system was built around key business metrics critical to e
 |----------------|------------------------------------------------------------------|
 | Salesforce     | Dashboards, Reports, SOQL Queries, Custom Fields                 |
 | SOQL           | Data extraction and transformation across objects                |
-| Excel / Sheets | Additional pivot analysis, quick reports for field teams         |
 | CRM Analytics  | Advanced dashboard customization               |
 | Data Modeling  | Definition of core tables: Opportunities, Accounts, Payments     |
 
 ---
 
+
 ## 🧭 Dashboard Types
 
-The unified reporting system included **two strategic dashboard categories** tailored for different stakeholder needs:
-
-### 1. 📈 Results Dashboards  
-Focused on performance metrics and business outcomes:
-- Unit Sales vs Target
-- Revenue Progress
-- Agent Profitability
-- Customer Acquisition Cost (CAC)
-
-**Primary users:** Leadership, Commercial Managers
-
-
-### 2. 📊 Workload Dashboards  
-Centered on operational and activity-based insights:
-- Opportunities with missing installation orders and payments
-- Pipeline Stages of the orders (Draft, Confirmed, Installed)
-
-**Primary users:** Sales Managers, Field Coordinators, Operations
+| Dashboard Type       | Focus Areas                                                                                                  | Example Metrics / Visuals                                                                                  | Primary Users                                     |
+|----------------------|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| 📈 **Results**        | Business performance and strategic KPIs                                                                      | - Unit Sales vs Target<br>- Revenue Progress<br>- Agent Profitability<br>- Customer Acquisition Cost (CAC)       | Leadership, Finance, Commercial Managers,Technical Operations        |
+| 📊 **Workload**       | Operational insights and agent activity tracking                                                              | - Opportunities with missing installation orders and payments<br>- Lead Follow-ups<br>- Pipeline Stages of the orders (Draft, Confirmed, Installed)   | - Sales Managers, Sales Agents, Technitians|
 
 ![Dashboards Types](images/dashboards-types.jpg)
 
