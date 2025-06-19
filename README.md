@@ -90,6 +90,14 @@ The dashboard system was based on a modular data model aligned with Salesforce's
 
 ---
 
+## 💼 Images
+
+#### Profiable 
+Metrics:  `Balance`, `Agent Performance`,`CAC`
+
+![Dashboards Diagram](images/profitable-dashboard.jpg)
+---
+
 ## 📁 Repository Structure
 
 ```bash
