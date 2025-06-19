@@ -65,6 +65,31 @@ The unified reporting system was built around key business metrics critical to e
 
 ---
 
+## 🧭 Dashboard Types
+
+The unified reporting system included **two strategic dashboard categories** tailored for different stakeholder needs:
+
+### 1. 📈 Results Dashboards  
+Focused on performance metrics and business outcomes:
+- Unit Sales vs Target
+- Revenue Progress
+- Agent Profitability
+- Customer Acquisition Cost (CAC)
+
+**Primary users:** Leadership, Commercial Managers
+
+
+### 2. 📊 Workload Dashboards  
+Centered on operational and activity-based insights:
+- Opportunities with missing installation orders and payments
+- Pipeline Stages of the orders (Draft, Confirmed, Installed)
+
+**Primary users:** Sales Managers, Field Coordinators, Operations
+
+![Dashboards Types](images/dashboards-types.jpg)
+
+---
+
 ## 🧩 Architecture & Data Model
 
 The dashboard system was based on a modular data model aligned with Salesforce's object schema. Key relationships:
@@ -74,7 +99,8 @@ The dashboard system was based on a modular data model aligned with Salesforce's
 - - `Opportunity` ←→ `Installation Orders` (custom object)  
 - `Opportunity` ←→ `Owners`  
 
-![Data Model Example](images/salesforce-project.jpg)
+![Dashboards Diagram](images/salesforce-diagram.jpg)
+
 
 ---
 
@@ -87,7 +113,6 @@ The dashboard system was based on a modular data model aligned with Salesforce's
 │   ├── dashboard-sales.png
 │   └── dashboard-profitability.png
 ├── documentation/
-│   ├── KPI_definitions.md
 │   └── data-model.md
 ├── queries/
 │   ├── opportunity_metrics_soql.md
