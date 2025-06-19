@@ -28,7 +28,7 @@ The goal was to replace scattered, manual reporting processes with a unified sys
 
 ---
 
-## 📄 KPI Summary
+## 📄 KPI Definitions
 
 The unified reporting system was built around key business metrics critical to evaluating commercial performance across teams and regions. Below is a summary of the core KPIs:
 
