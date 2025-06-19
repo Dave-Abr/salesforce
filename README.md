@@ -94,13 +94,16 @@ The dashboard system was based on a modular data model aligned with Salesforce's
 
 ## Performance Dashboard 
 Metrics:  `Sales`, `Unit Performance`,`Revenue Performance`,`Products`
-
 ![Performance Dashboard](images/performance-dashboard.jpg)
 
 ## Profitability Dashboard 
 Metrics:  `Balance`, `Agent Performance`,`CAC`
-
 ![Dashboards Diagram](images/profitability-dashboard.jpg)
+
+## Automate Reporting 
+![Dashboards Diagram](images/automate-reports.jpg)
+
+
 ---
 
 ## 📁 Repository Structure
